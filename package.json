@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "json package",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalokoi/Kalokoi.github.io.git"
+  },
+  "author": "Kio Haebe <lkhaebe@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kalokoi/Kalokoi.github.io/issues"
+  },
+  "homepage": "https://github.com/Kalokoi/Kalokoi.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
