@@ -1,5 +1,9 @@
-var gulp = require('gulp');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
 
-gulp.task('default', function() {
-  // place code for your default task here
+gulp.task('sass', function() {
+  return gulp
+    .src('scss/**/*.scss')
+    .pipe(scss())
+    .pipe(gulp.dest('css'))
 });
