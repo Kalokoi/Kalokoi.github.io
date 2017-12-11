@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const sass = require('gulp-sass');
+const scss = require('gulp-sass');
 
 gulp.task('sass', function() {
   return gulp
